@@ -25,21 +25,22 @@ function dragend(event) {
 
 
 function dragover(event) {
-    
+    event.preventDefault()
 }
 
 
 function dragenter(event) {
-
+    event.target.classList.add ('hovered')
 }
 
 
 function dragleave(event) {
-
+    event.target.classList.remove('hovered')
 }
 
 
 function dragdrop(event) {
-
+    event.target.append(item)
+    event.target.classList.remove('hovered')
 }
 
