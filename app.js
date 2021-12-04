@@ -15,8 +15,8 @@ function dragstart(event) {
     event.target.classList.add('hold')
     setTimeout(() => {
         event.target.classList.add('hide')
-    },0)
-    
+    }, 0)
+
 }
 
 function dragend(event) {
@@ -30,7 +30,7 @@ function dragover(event) {
 
 
 function dragenter(event) {
-    event.target.classList.add ('hovered')
+    event.target.classList.add('hovered')
 }
 
 

@@ -16,7 +16,7 @@ body {
 
 .row {
   display: flex;
-  width: 600px;
+  width: 900px;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
@@ -64,13 +64,13 @@ body {
 }
 
 .hold {
-  border: 5px solid #eee;
+  border: 5px solid rgb(143, 143, 143);
 }
 
 .hide {
   display: none;
 }
 
-.hovered{
-  border-top: 2px solid #8ed7ed;
+.hovered {
+  border-top: 2px solid #04779b;
 }
